@@ -7,7 +7,7 @@ for a local 'npm run build', use this in package.json:
 "homepage": ".",
 
 for deployment in github ('npm run deploy'), use this in package.json:
-"homepage":"https://schrulnz.github.io/robofriends/",
+"homepage": "https://schrulnz.github.io/robofriends/",
 
 
 _________________________________________________
