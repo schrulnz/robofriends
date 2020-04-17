@@ -4,19 +4,27 @@ This code is from the Udemy Tutorial Zero To Mastery from the React Section.
 https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/
 
 
+## Basic Setup
+
+You need npm to be installed on your system: https://www.npmjs.com/get-npm
+
+In the project directory, run:
+### `npm install`
+
+
 ## For a local build:
 
-Use this in package.json:
+Set your homepage in package.json:
 ### `"homepage": ".",`
 
 In the project directory, run:
 ### `npm run build`
-You can now open the index.html file in the build folder.
+You can now open the index.html file in the build folder and have a look at the app.
 
 
 ## E.g. for deploying to this github page:
 
-Use this in package.json:
+Set your homepage in package.json:
 ### `"homepage": "https://schrulnz.github.io/robofriends/",`
 
 In the project directory, run:
