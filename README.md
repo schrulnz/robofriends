@@ -3,7 +3,11 @@
 This code is from the Udemy Tutorial Zero To Mastery from the React Section.
 https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/
 
+for a local 'npm run build', use this in package.json:
+"homepage": ".",
 
+for deployment in github ('npm run deploy'), use this in package.json:
+"homepage": "https://schrulnz.github.io/robofriends/",
 
 
 _________________________________________________
