@@ -3,14 +3,29 @@
 This code is from the Udemy Tutorial Zero To Mastery from the React Section.
 https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/
 
-for a local 'npm run build', use this in package.json:
-"homepage": ".",
 
-for deployment in github ('npm run deploy'), use this in package.json:
-"homepage": "https://schrulnz.github.io/robofriends/",
+## For a local build:
 
+Use this in package.json:
+### `"homepage": ".",`
+
+In the project directory, run:
+### `npm run build`
+You can now open the index.html file in the build folder.
+
+
+## E.g. for deploying to this github page:
+
+Use this in package.json:
+### `"homepage": "https://schrulnz.github.io/robofriends/",`
+
+In the project directory, run:
+### `npm run deploy`
+You can now open the app from this github page.
 
 _________________________________________________
+
+## Official documentation from the course
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
